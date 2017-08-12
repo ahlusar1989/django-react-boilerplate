@@ -23,7 +23,6 @@ class Routes extends Component {
       <AppContainer>
           <Route location={location} path='*' component={RouteMap.Navigation}/>
           <Route exact location={location} path='/' component={RouteMap.Home} />
-          <Route exact location={location} path='/counter' component={RouteMap.Counter} />
           <Route exact location={location} path='/login' component={RouteMap.Login} />
           <Route exact location={location} path='/signup' component={RouteMap.Signup} />
       </AppContainer>

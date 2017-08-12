@@ -13,13 +13,13 @@ class Home extends Component {
           <h2>What is it?</h2>
           <ul>
             <li>
-              <b>Django REST api</b><br />
+              <b>Django REST API</b><br />
               <p>Django REST handles the authentication and Postgresql database</p>
             </li>
 
             <li>
-              <b>React Redux Client</b><br />
-              <p>Django Will Serve a gzipped React Redux App</p>
+              <b>React with Redux Client</b><br />
+              <p>Django serves a gzipped react app</p>
             </li>
 
             <li>
@@ -33,9 +33,9 @@ class Home extends Component {
         <div>
           <h2>Why?</h2>
           <ul>
-            <li>Blazing Fast</li>
-            <li>Organized</li>
-            <li>Easy to build on top of</li>
+            <li>Performance</li>
+            <li>Organization</li>
+            <li>Easily extensible</li>
           </ul>
         </div>
 
@@ -45,9 +45,9 @@ class Home extends Component {
           <p>The Basic setup goes like this...</p>
 
           <ol>
-            <li><p>Nginx will reverse proxy to django at port 8000 and served static assets gzipped</p></li>
-            <li><p>Django will send a post request to an express server on port 3000 that will return the html as a string</p></li>
-            <li><p>Django will serve that string and once the JavaScript is loaded the application state will be handed over</p></li>
+            <li><p>Nginx will reverse proxy to Django at port 8000 and served static assets gzipped</p></li>
+            <li><p>Django will send a post request to an Express server on port 3000 that will return the html as a string</p></li>
+            <li><p>Django will serve that string; once the Javascript is loaded the application state is transferred</p></li>
           </ol>
         </div>
       </div>
