@@ -24,7 +24,7 @@ class Home extends Component {
 
             <li>
               <b>Waggle: Server Side Rendering</b><br />
-              <p>An intermediate "waggle" server will handle the server side Rendering to Increase initial page load and SEO</p>
+              <p>An intermediate "waggle" server will handle the server side rendering to increase SEO and decrease page load time</p>
             </li>
           </ul>
         </div>
