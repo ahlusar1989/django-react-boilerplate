@@ -42,7 +42,7 @@ class Home extends Component {
         <div>
           <h2>How?</h2>
 
-          <p>The Basic setup goes like this...</p>
+          <p>How Djano and Express communicate...</p>
 
           <ol>
             <li><p>Nginx will reverse proxy to Django at port 8000 and served static assets gzipped</p></li>
