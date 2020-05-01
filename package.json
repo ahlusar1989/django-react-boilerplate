@@ -10,7 +10,9 @@
     "build:server": "NODE_ENV=production webpack --config webpack/server.babel.js",
     "build:client": "NODE_ENV=production webpack --config webpack/client.babel.js",
     "watch": "NODE_ENV=production webpack --config webpack/client.babel.js --watch",
-    "mocha": "mocha --require tests/require --recursive --compilers js:babel-core/register src/universal"
+    "mocha": "mocha --require tests/require --recursive --compilers js:babel-core/register src/universal",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "react",
@@ -72,6 +74,8 @@
     "redux": "^3.6.0",
     "redux-form": "^7.0.3",
     "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.2.0"
-  }
+    "redux-thunk": "^2.2.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
